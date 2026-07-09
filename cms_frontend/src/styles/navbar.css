@@ -1,0 +1,107 @@
+.custom-navbar{
+
+    background:linear-gradient(90deg,#0D6EFD,#084298);
+
+    padding:14px 0;
+
+}
+.navbar-brand{
+
+    color:white !important;
+
+    font-weight:700;
+
+    font-size:26px;
+
+    letter-spacing:.8px;
+
+    display:flex;
+
+    align-items:center;
+
+    transition:.3s;
+
+}
+
+.navbar-brand:hover{
+
+    color:#f8f9fa !important;
+
+}
+
+.nav-link{
+
+    color:white !important;
+
+    border-radius:10px;
+
+    padding:10px 18px !important;
+
+    margin:0 8px;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    transition:all .3s ease;
+
+}
+
+/* .nav-link:hover{
+
+    background:rgba(255,255,255,.15);
+
+} */
+ .nav-link:hover{
+
+    background:rgba(255,255,255,.18);
+
+    transform:translateY(-2px);
+
+}
+
+.nav-link.active{
+
+    background:rgba(255,255,255,.18);
+
+    color:white !important;
+
+    font-weight:600;
+
+    border-bottom:3px solid #FFC107;
+
+    border-radius:8px;
+
+}
+
+.navbar .btn{
+
+    border-radius:30px;
+
+    padding:8px 18px;
+
+    font-weight:600;
+
+}
+.badge{
+
+    font-size:12px;
+
+}
+
+.navbar{
+
+    box-shadow:0 4px 15px rgb(0, 0, 0);
+
+}
+.welcome-text{
+
+    color:white;
+
+    margin:0 18px;
+
+    font-weight:500;
+
+    white-space:nowrap;
+
+}
