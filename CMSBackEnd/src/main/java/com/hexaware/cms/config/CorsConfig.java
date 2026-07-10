@@ -17,8 +17,8 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
 
                 registry.addMapping("/**")
-//                        .allowedOrigins("http://localhost:5173")
-                .allowedOrigins("http://cms-react-frontend-lily-2026.s3-website.ap-south-1.amazonaws.com")
+                        .allowedOrigins("http://localhost:5173")
+//                .allowedOrigins("http://cms-react-frontend-lily-2026.s3-website.ap-south-1.amazonaws.com")
                         .allowedMethods("*")
                         .allowedHeaders("*");
 

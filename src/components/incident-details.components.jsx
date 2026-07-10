@@ -414,21 +414,7 @@ function IncidentDetails() {
 
                     </div>
 
-                    {/* <button
-
-                        className="btn btn-success"
-
-                        onClick={() =>
-                            downloadReport(
-                                incident.incidentId
-                            )
-                        }
-
-                    >
-
-                        Download Status Card
-
-                    </button> */}
+                
                     <div className="d-flex justify-content-end gap-3">
 
                         <button

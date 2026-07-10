@@ -396,41 +396,7 @@ export default function Dashboard() {
                             )}
                         </div>
                     </div>
-                    {/* <div className="card mt-4">
-
-                        <div className="card-body">
-
-                            <h5>
-
-                                Quick Actions
-
-                            </h5>
-
-                            <div className="d-flex gap-3 mt-3">
-
-                                <button
-                                    className="btn btn-danger"
-                                    onClick={() => navigate("/incidents/create")}
-                                >
-
-                                    Report Incident
-
-                                </button>
-
-                                <button
-                                    className="btn btn-primary"
-                                    onClick={() => navigate("/incidents")}
-                                >
-
-                                    My Incidents
-
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </div> */}
+               
                 </>
             )}
             {auth.role === "Officer" && (
@@ -589,38 +555,11 @@ export default function Dashboard() {
 
             )}
 
-            {/* <div className="mt-5">
-
-        <h4>Quick Actions</h4>
-
-        <div className="d-flex gap-3">
-
-            <button
-                className="btn btn-danger"
-                onClick={() => navigate("/api/incidents/createIncident")}
-            >
-                Report Incident
-            </button>
-
-            <button
-                className="btn btn-primary"
-                onClick={() => navigate("/myIncidents")}
-            >
-                My Incidents
-            </button>
-
-        </div>
-
-    </div> */}{auth.role === "Stationhead" && (
+          {auth.role === "Stationhead" && (
 
                 <div>
 
-                    {/* <h2>
-
-                        Welcome {auth.firstName}
-
-                    </h2> */}
-
+                
 
 
                     <div className="row mt-4">
@@ -820,7 +759,6 @@ export default function Dashboard() {
 
                                         <td>{i.title}</td>
 
-                                        {/* <td>{i.status.statusName}</td> */}
                                         <td>
 
                                             {i.status.statusName === "initiated" &&
